@@ -1,0 +1,60 @@
+@import "compass/reset";
+@import "compass/css3";
+//@import url(https://fonts.googleapis.com/css?family=Halant:400,300,600);
+
+body {
+    color: #333;
+    background-color: #10845E;//#14a475;
+}
+
+h1 {
+    font-size: 80px;
+    //font-family: 'Halant', serif;
+    font-weight: 300;
+    color: #FEFCFA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -220px;
+    border: 3px solid #FEFCFA;
+    padding: 12px;
+}
+
+.last {
+    font-weight: 300;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 26px;
+    //font-family: 'Halant', serif;
+    font-weight: 300;
+    color: #E5E5E5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 40px;
+    margin-left: -240px;
+    font-style: italic;
+}
+
+.green {
+    
+}
+
+.splash {
+    
+}
+
+.inner {
+    
+}
+
+.container {
+    
+}
+
+.parallax-container {
+    height: 500px;
+}
