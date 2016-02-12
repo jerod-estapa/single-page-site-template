@@ -15,7 +15,7 @@
 
 body {
     color: #333;
-    background-color: #f8f8f8;
+    background-color: #FCFAF7;
 }
 
 .logo {
@@ -65,7 +65,8 @@ body {
     @include animation(bounce 2s infinite);
 }
 
-.about {
+#about {
+    font-size: 27px;
 
 }
 
@@ -87,6 +88,16 @@ body {
     height: 500px;
 }
 
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+}
+
 #fullpage {
     background-color: #10845E;//#14a475;
+}
+
+footer {
+    background-color: #fff;
+    font-size: 20px;
 }

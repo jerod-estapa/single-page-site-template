@@ -114,7 +114,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 16, ../sass/style.scss */
 body {
   color: #333;
-  background-color: #f8f8f8;
+  background-color: #FCFAF7;
 }
 
 /* line 21, ../sass/style.scss */
@@ -167,18 +167,35 @@ body {
   animation: bounce 2s infinite;
 }
 
-/* line 80, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
+#about {
+  font-size: 27px;
+}
+
+/* line 81, ../sass/style.scss */
 .inner {
   top: 100%;
   left: 50%;
 }
 
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .parallax-container {
   height: 500px;
 }
 
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
+.parallax-window {
+  min-height: 300px;
+  background: transparent;
+}
+
+/* line 96, ../sass/style.scss */
 #fullpage {
   background-color: #10845E;
+}
+
+/* line 100, ../sass/style.scss */
+footer {
+  background-color: #fff;
+  font-size: 20px;
 }
