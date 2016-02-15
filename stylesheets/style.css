@@ -172,30 +172,53 @@ body {
   font-size: 27px;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .inner {
   top: 100%;
   left: 50%;
 }
 
-/* line 87, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .parallax-container {
   height: 500px;
 }
 
-/* line 91, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .parallax-window {
   min-height: 300px;
   background: transparent;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 #fullpage {
   background-color: #10845E;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 footer {
   background-color: #fff;
-  font-size: 20px;
+  font-size: 22px;
+}
+
+/* line 104, ../sass/style.scss */
+footer a {
+  color: #10845E;
+}
+
+/* line 108, ../sass/style.scss */
+.container {
+  margin-left: 28%;
+  margin-right: 25%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+/* line 115, ../sass/style.scss */
+#about a {
+  color: #10845E;
+}
+
+/* line 119, ../sass/style.scss */
+strong {
+  font-weight: bold;
 }
