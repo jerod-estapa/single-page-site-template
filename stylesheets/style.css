@@ -222,3 +222,8 @@ footer a {
 strong {
   font-weight: bold;
 }
+
+/* line 123, ../sass/style.scss */
+ul {
+  list-style: disc inside;
+}
