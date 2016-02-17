@@ -197,7 +197,7 @@ body {
 /* line 99, ../sass/style.scss */
 footer {
   background-color: #fff;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 /* line 104, ../sass/style.scss */
@@ -224,6 +224,6 @@ strong {
 }
 
 /* line 123, ../sass/style.scss */
-ul {
+.skills {
   list-style: disc inside;
 }

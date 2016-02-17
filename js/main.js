@@ -29,3 +29,11 @@ $(function() {
     }
   });
 });
+
+// textFill
+
+// $(function() {
+//     $('#fullpage').textfill({
+//         
+//     })
+// })
