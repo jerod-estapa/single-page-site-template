@@ -118,7 +118,7 @@ body {
 }
 
 /* line 21, ../sass/style.scss */
-.logo {
+#logo {
   font-size: 80px;
   font-weight: 300;
   color: #FEFCFA;
@@ -137,12 +137,12 @@ body {
 }
 
 /* line 40, ../sass/style.scss */
-.tagline {
+#tagline {
   font-size: 26px;
   font-weight: 300;
   color: #FEFCFA;
   position: absolute;
-  top: 58%;
+  top: 56%;
   left: 35%;
   margin-left: -20px;
   font-style: italic;
@@ -191,7 +191,7 @@ body {
 
 /* line 95, ../sass/style.scss */
 #fullpage {
-  background-color: #10845E;
+  background-color: #139b6e;
 }
 
 /* line 99, ../sass/style.scss */
@@ -202,7 +202,7 @@ footer {
 
 /* line 104, ../sass/style.scss */
 footer a {
-  color: #10845E;
+  color: #139b6e;
 }
 
 /* line 108, ../sass/style.scss */
@@ -224,6 +224,6 @@ strong {
 }
 
 /* line 123, ../sass/style.scss */
-.skills {
-  list-style: disc inside;
+li {
+  list-style-type: none;
 }

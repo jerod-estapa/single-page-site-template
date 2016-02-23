@@ -33,7 +33,8 @@ $(function() {
 // textFill
 
 // $(function() {
-//     $('#fullpage').textfill({
-//         
-//     })
-// })
+//     $('#logo').textfill({
+//         minFontPixels: 10,
+//         maxFontPixels: 80
+//     });
+// });

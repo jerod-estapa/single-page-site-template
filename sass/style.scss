@@ -18,7 +18,7 @@ body {
     background-color: #FCFAF7;
 }
 
-.logo {
+#logo {
     font-size: 80px;
     //font-family: 'Halant', serif;
     font-weight: 300;
@@ -37,13 +37,13 @@ body {
     font-style: italic;
 }
 
-.tagline {
+#tagline {
     font-size: 26px;
     //font-family: 'Halant', serif;
     font-weight: 300;
     color: #FEFCFA;
     position: absolute;
-    top: 58%;
+    top: 56%;
     left: 35%;
     //margin-top: 40px;
     margin-left: -20px;
@@ -93,7 +93,7 @@ body {
 }
 
 #fullpage {
-    background-color: #10845E;//#14a475;
+    background-color: #139b6e;//#14a475;
 }
 
 footer {
@@ -102,7 +102,7 @@ footer {
 }
 
 footer a {
-    color: #10845E;
+    color: #139b6e;
 }
 
 .container {
@@ -120,6 +120,6 @@ strong {
     font-weight: bold; 
 }
 
-.skills {
-    list-style: disc inside;
+li {
+    list-style-type: none;
 }
