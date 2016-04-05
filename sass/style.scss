@@ -1,6 +1,9 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "breakpoint";
+
 //@import url(https://fonts.googleapis.com/css?family=Halant:400,300,600);
+
 @include keyframes(bounce) {
 	0%, 20%, 50%, 80%, 100% {
     @include transform(translateY(0));
@@ -13,13 +16,20 @@
   }
 }
 
+// @media (max-width: )
+$small: 543px;
+$medium: 794px;
+$fence-sm: $small $medium;
+
+
+
 body {
     color: #333;
     background-color: #FCFAF7;
 }
 
 #logo {
-    font-size: 80px;
+    font-size: 5em;
     //font-family: 'Halant', serif;
     font-weight: 300;
     color: #FEFCFA;
@@ -94,6 +104,15 @@ body {
 
 #fullpage {
     background-color: #139b6e;//#14a475;
+    content: 'No Media Queries';
+    
+    @include breakpoint($small) {
+        content: 'Small Media Query';
+    }
+    
+    @include breakpoint($fence-sm) {
+        content: 'Fenced Media Query';
+    }
 }
 
 footer {
@@ -103,6 +122,7 @@ footer {
 
 footer a {
     color: #139b6e;
+    text-decoration: none;
 }
 
 .container {
@@ -114,6 +134,7 @@ footer a {
 
 #about a {
     color: #10845E;
+    text-decoration: none;
 }
 
 strong {
@@ -122,4 +143,9 @@ strong {
 
 li {
     list-style-type: none;
+}
+
+hr {
+    color: #615c56;
+    background-color: #615c56;
 }
